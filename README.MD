@@ -37,3 +37,6 @@ https://git-scm.com/download
 - 'git remote add origin {{$url_repository_github}}' // Adiciona um repositório remoto
 - 'git remote -v' // Exibi os repositórios remotos disponíveis
 - 'git push -u origin master' // Envia os commities para o repositório remoto
+
+### Extras
+- 'git credencial.helper store' // Utiliza a última credencia informada 
