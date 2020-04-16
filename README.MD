@@ -15,7 +15,7 @@ https://git-scm.com/download
 - [x] Você adiciona as novas funcionalidades ao seu projeto em produção.
 - [x] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
 
-- [] Você quer colocar seu projeto na nuvem.
+- [x] Você quer colocar seu projeto na nuvem.
 
 ## COMMANDS
 
