@@ -39,4 +39,4 @@ https://git-scm.com/download
 - 'git push -u origin master' // Envia os commities para o repositório remoto
 
 ### Extras
-- 'git credencial.helper store' // Utiliza a última credencial informada 
+- 'git credencial.helper store' // Utiliza a última credencial informada
