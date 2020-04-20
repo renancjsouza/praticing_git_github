@@ -17,6 +17,13 @@ https://git-scm.com/download
 
 - [x] Você quer colocar seu projeto na nuvem.
 
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time.
+- [x] Você precisa resolver um conflito.
+- [x] Antes de enviar a solução, precisamos atualizar o projeto local.
+
+- [x] Você precisa voltar um arquivo para um determinado momento na linha do tempo.
+- [x] Você precisa recuperar algo deletado.
+
 ## COMMANDS
 
 - 'git init' // Inicia a linha do tempo
@@ -29,6 +36,7 @@ https://git-scm.com/download
 
 - 'git branch {{feature/$nome}}' // Cria uma branch no projeto que não interfere na branch 'master'
 - 'git checkout {{$branch}}' // Navega pelas branchs
+- 'git checkout -b {{feature/$nome}}' // Cria uma nova branch e vai pra essa nova branch
 - 'git branch' // Visualiza as branchs do projeto
 - 'git merge {{$branch}}' // Uni a branch
 - 'git branch -d {{$branch}}' // Deleta a branch
@@ -37,6 +45,12 @@ https://git-scm.com/download
 - 'git remote add origin {{$url_repository_github}}' // Adiciona um repositório remoto
 - 'git remote -v' // Exibi os repositórios remotos disponíveis
 - 'git push -u origin master' // Envia os commities para o repositório remoto
+- 'git pull' // Atualiza o repositório local de acordo com o repositório remoto
+
+- 'git clone {{$repository_remote}}' // Cria um clone de um determinado repositório remoto
+
+- 'git checkout -- {{$archive}} // Restaura um arquivo antes do último commit
+- 'git checkout {{$id_commit}} -- {{$archive}}' // Restaura um arquivo antes do commit em questão
 
 ### Extras
 - 'git credencial.helper store' // Utiliza a última credencial informada
